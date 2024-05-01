@@ -3,8 +3,8 @@ set -euo pipefail
 IFS=$'\n\t'
 
 
-# echo "Downloading LLaMA-3-Instruct-8B (5.37GB)"
-# wget 'https://huggingface.co/jartine/Meta-Llama-3-8B-Instruct-llamafile/resolve/main/Meta-Llama-3-8B-Instruct.Q5_K_M.llamafile?download=true'
+echo "Downloading LLaMA-3-Instruct-8B (5.37GB)"
+wget 'https://huggingface.co/jartine/Meta-Llama-3-8B-Instruct-llamafile/resolve/main/Meta-Llama-3-8B-Instruct.Q5_K_M.llamafile?download=true'
 
 echo "Downloading WizardCoder-Python-13B - LLAMA2 (7.33GB)"
 wget 'https://huggingface.co/jartine/wizardcoder-13b-python/resolve/main/wizardcoder-python-13b.llamafile?download=true' -O wizardcoder-python-13b.llamafile
